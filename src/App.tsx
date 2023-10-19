@@ -10,13 +10,13 @@ function App() {
 
   return (
     <div className='flex gap-3'>
-      <p className='text-xl	font-bold'>hello van beo nang {count}</p>
+      <p className='text-xl	font-bold'>Co {count} qua tao</p>
       <button
       type="button"
       className="border"
       onClick={increase}
     >
-      Tang can
+      Buy
     </button>
     </div>
   );
